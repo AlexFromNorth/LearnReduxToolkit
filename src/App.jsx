@@ -14,20 +14,10 @@ function App() {
       setText('')
     }
 
-  const toggleTodoComplete = (todoId) => {
-    // setTodos(
-    //   todos.map((todo) => {
-    //     if (todo.id !== todoId) return todo;
-
-    //     return {
-    //       ...todo,
-    //       completed: !todo.completed,
-    //     };
-    //   })
-    // );
+  // const toggleTodoComplete = (todoId) => {
 
     
-  };
+  // };
 
   return (
     <>
@@ -35,7 +25,7 @@ function App() {
         <InputField text={text} handleInput={setText} handleSubmit={addTask}/>
 
         <TodoLists
-          toggleTodoComplete={toggleTodoComplete}
+          // toggleTodoComplete={toggleTodoComplete}
         />
       </div>
     </>
